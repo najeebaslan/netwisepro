@@ -1,221 +1,202 @@
-# Recharge Cards App <img src="assets/logo.png" width="40" height="40">
+# <div align="center">NetWise Pro - Wireless Network Management System 📡</div>
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![Flutter](https://img.shields.io/badge/flutter-3.19.5-blue)
-![Dart](https://img.shields.io/badge/dart-3.3.0-blue)
-
-<!-- PROJECT LOGO -->
 <div align="center">
-  <img src="assets/logo.png" alt="Logo" width="200">
-  
-  <h1>Recharge Cards Management App</h1>
-  
-  <p>
-    A comprehensive solution for managing recharge cards for service providers and customers
-  </p>
-
-  <div>
-    <a href="#">
-      <img src="https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white" height="60">
-    </a>
-    <a href="#">
-      <img src="https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white" height="60">
-    </a>
-  </div>
+  <td><img src="https://firebasestorage.googleapis.com/v0/b/issues-new.appspot.com/o/app_logo%2Fprison_dates_web.png?alt=media&token=d316de76-38b6-445d-b570-b133a9116437" alt="Image 2"></td>
 </div>
+
+---
 
 ## Overview
-Crotty is a modern, feature-rich mobile application designed to simplify and streamline network card management and financial operations. It provides users with a seamless experience for buying, selling, and tracking network cards, as well as handling money transfers and reports. The app is built with scalability, security, and user-friendliness in mind.
-## 📱 App Screenshots
 
-<div align="center">
-  <table>
-    <tr>
-      <td><img src="screenshots/login.jpg" width="200"></td>
-      <td><img src="screenshots/home.jpg" width="200"></td>
-      <td><img src="screenshots/cards.jpg" width="200"></td>
-      <td><img src="screenshots/map.jpg" width="200"></td>
-    </tr>
-    <tr>
-      <td><img src="screenshots/reports.jpg" width="200"></td>
-      <td><img src="screenshots/notifications.jpg" width="200"></td>
-      <td><img src="screenshots/profile.jpg" width="200"></td>
-      <td><img src="screenshots/dark_mode.jpg" width="200"></td>
-    </tr>
-  </table>
-</div>
+NetWise Pro is a modern Flutter-based application for managing and monitoring wireless networks. It empowers users and administrators with robust tools for network operations, analytics, and security. The app features a clean, responsive UI and supports multiple languages for a global audience.
 
-## ✨ Key Features
-- 🔍 Discover nearby available networks
-- 💳 Purchase network cards from any provider
-- 🛡️ Secure card storage with encryption
-- 📊 Comprehensive purchase history tracking
-- 🔔 Real-time notifications for promotions
-- 🗺️ Network location visualization
-- 📦 Easy-to-use purchase process
+---
 
+## Description
 
-## 🛠 Core Technical Features
-- **Backend**: Node.js with Express
-- **Database**: MongoDB with Redis caching
-- **Authentication**: Email/Password & Google Sign-In
-- **Notifications**: Firebase Messaging + Flutter Local Notifications
-- **State Management**: BLoC Pattern
-- **UI**: Fully responsive with advanced animations
-- **Maps**: Google Maps integration
-- **API**: RESTful with Dio client
+- Manage, monitor, and analyze wireless networks with ease.
+- Secure, multi-language, and responsive for all devices.
+- Designed for both network admins and everyday users.
 
+---
 
-## 🛠️ Development Skills Applied
-### Backend Development
-- Node.js with Express framework
-- MongoDB database design
-- Redis for caching and performance
-- RESTful API development
-- JWT authentication
+## What Does This App Do? (Step-by-Step)
 
+1. **User Authentication:** Secure login and session management.
+2. **Network Management:** Add, edit, and delete network details, cards, packages, and offers.
+3. **Sales & Reports:** Sell balances, view sales, and generate detailed reports.
+4. **Notifications:** Receive real-time updates and alerts.
+5. **Settings:** Customize preferences, themes, and language.
 
-### Mobile Development
-- Flutter with Clean Architecture
-- BLoC state management
-- Firebase Messaging integration
-- Flutter Local Notifications
-- Google Maps integration
-- Advanced animation implementation
-- Dio for network operations
-- Responsive UI design
+---
 
+## Key Features
 
-### Tools & Methodologies
-- Postman for API testing
-- Project requirement planning
-- Clean Architecture implementation
-- Git version control
-- Agile development
+- Add, edit, and manage network details, cards, and packages
+- Multi-language support (English, Arabic)
+- Responsive UI (Sizer)
+- Dark/Light theme
+- Custom animations and transitions
+- Secure authentication and permission management
+- Comprehensive reporting and analytics
+- Real-time notifications
 
+---
 
+## Core Technical Features
 
-## 🧪 Testing
-The project includes:
-- Unit tests
-- Widget tests
-- Integration tests
+- **State Management:** Provider
+- **Localization:** flutter_localizations, intl
+- **Network Requests:** http
+- **Data Storage:** shared_preferences
+- **Animations:** lottie, custom transitions
+- **Charts & Visualization:** syncfusion_flutter_charts
+- **Functional Programming:** dartz
+- **SVG & Media:** flutter_svg, image_picker, file_picker
 
-## 📈 Performance Optimization
-- Image caching
-- Lazy loading
-- Memory management
-- Widget rebuilding optimization
+---
 
-## 🌍 Localization
-- Arabic language support
-- RTL layout support
-- Dynamic locale switching
+## Development Skills Applied
 
-## 🛠️ Technology Stack
-| Category | Technology |
-|----------|------------|
-| Framework | Flutter |
-| State Management | BLoC Pattern |
-| Backend Integration | Nodejs,Firebase |
-| Cache Management | Redis,Hive |
-| DataBase | MongoDB |
-| UI/UX | Figma,Material Design, |
-| Push Notifications | Firebase Cloud Messaging |
-| Authentication | Backend Nodejs |
+- Clean architecture and modular codebase
+- Advanced Flutter UI/UX design
+- State management with Provider
+- RESTful API integration
+- Secure local storage and permission handling
+- Responsive and adaptive layouts
+- Internationalization (i18n)
 
+---
 
-## 🧩 Application Structure (Clean Architecture)
-```
-lib/
-├── core/
-│ ├── constants/
-│ ├── errors/
-│ ├── network/
-│ ├── usecases/
-│ └── utils/
-├── features/
-│ ├── auth/
-│ │ ├── data/
-│ │ ├── domain/
-│ │ └── presentation/
-│ ├── networks/
-│ │ ├── data/
-│ │ ├── domain/
-│ │ └── presentation/
-│ ├── settings/
-│ │ ├── data/
-│ │ ├── domain/
-│ │ └── presentation/
-│ ├── reports/
-│ │ ├── data/
-│ │ ├── domain/
-│ │ └── presentation/
-│ ├── card/
-│ │ ├── data/
-│ │ ├── domain/
-│ │ └── presentation/
-│ └── purchases/
-│ ├── data/
-│ ├── domain/
-│ └── presentation/
-├── injection_container.dart
-└── main.dart
-```
+## Mobile Development
 
-## 🏛 Technical Architecture
+- Built with Flutter for cross-platform (Android & iOS)
+- Uses Sizer for responsive design
+- Supports both light and dark themes
+- Optimized for performance and smooth animations
+
+---
+
+## Tools & Methodologies
+
+| Tool/Methodology         | Purpose                        |
+|-------------------------|--------------------------------|
+| Flutter                 | Cross-platform development     |
+| Dart                    | Programming language           |
+| Provider                | State management               |
+| REST API                | Backend communication          |
+| Postman                 | API testing                    |
+| Git                     | Version control                |
+| VS Code/Android Studio  | Development environment        |
+| JWT                     | Authentication                 |
+| MongoDB/Redis           | Backend data & cache           |
+
+---
+
+## Technology Stack
+
+<table>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://storage.googleapis.com/cms-storage-bucket/ec64036b4eacc9f3fd73.svg" width="48" height="48" alt="Flutter" />
+      <br>Flutter
+    </td>
+    <td align="center" width="96">
+      <img src="https://dart.dev/assets/shared/dart/icon/64.png" width="48" height="48" alt="Dart" />
+      <br>Dart
+    </td>
+    <td align="center" width="96">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" width="48" height="48" alt="MongoDB" />
+      <br>MongoDB
+    </td>
+    <td align="center" width="96">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="48" height="48" alt="Node.js" />
+      <br>Node.js
+    </td>
+    <td align="center" width="96">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" width="48" height="48" alt="Redis" />
+      <br>Redis
+    </td>
+    <td align="center" width="96">
+      <img src="https://jwt.io/img/pic_logo.svg" width="48" height="48" alt="JWT" />
+      <br>JWT
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.worldvectorlogo.com/logos/rest.svg" width="48" height="48" alt="REST API" />
+      <br>REST API
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="48" height="48" alt="Postman" />
+      <br>Postman
+    </td>
+  </tr>
+</table>
+
+---
+
+## Application Structure
+
 ```mermaid
-graph TD
-    A[Presentation Layer] --> B[Business Logic Layer]
-    B --> C[Data Layer]
-    C --> D[External APIs]
-    C --> E[Local Storage]
-    B --> F[Google Maps API]
-    B --> G[Firebase Messaging]
-    C --> H[Card Inventory]
-    C --> I[Sales Reports]
-
-```
-
-
-## 📊 Project Workflow
-```mermaid
-graph TD
-    A[App Core] --> B[Features]
-    A --> C[Core Services]
-    A --> D[Config]
+flowchart TD
+    A[lib/] --> B[config/]
+    A --> C[core/]
+    A --> D[data/]
+    A --> E[domain/]
+    A --> F[ui/]
+    A --> G[utils/]
     
-    B --> B1[Data Layer]
-    B --> B2[Domain Layer]
-    B --> B3[Presentation Layer]
+    B --> B1[l10n/]
+    B --> B2[theme/]
+    B --> B3[extensions/]
     
-    B3 --> E1[Views]
-    B3 --> E2[BLoC]
-    B3 --> E3[Components]
+    F --> F1[pages/]
+    F --> F2[widgets/]
     
-    C --> C1[Authentication]
-    C --> C2[Navigation]
-    C --> C3[Local Storage]
+    D --> D1[repositories/]
+    D --> D2[models/]
     
-    D --> D1[Theme]
-    D --> D2[Routes]
-    D --> D3[Localization]
-```
-
-
-## 📱 Screen Architecture
-```mermaid
-flowchart LR
-    A[Login] --> B[Home]
-    B --> C[Network]
-    B --> D[Cards]
-    B --> E[Profile]
-    B --> F[Reports]
+    E --> E1[entities/]
+    E --> E2[usecases/]
 ```
 
 ---
 
+
+## Screen Architecture
+
+- **Authentication Screens:** Login, Registration, Forgot Password, Verification
+- **Home Screen:** Dashboard, quick stats, navigation
+- **Menu:** Profile, Settings, Account Switch, About, Logout
+- **Network Management:** Edit network, manage coverage, offers, engineers
+- **Reports:** Sales, exports, imports, analytics
+- **Notifications:** Real-time updates, filterable by type
+
+---
+
+## 📦 Packages Used
+
+| Package                   | Purpose                        |
+|---------------------------|--------------------------------|
+| provider                  | State management               |
+| sizer                     | Responsive UI                  |
+| dartz                     | Functional programming         |
+| http                      | Network requests               |
+| flutter_svg               | SVG rendering                  |
+| lottie                    | Animation support              |
+| syncfusion_flutter_charts | Data visualization             |
+| intl                      | Internationalization           |
+| image_picker              | Image selection                |
+| file_picker               | File selection                 |
+| awesome_dialog            | Custom dialogs                 |
+| fluttertoast              | Toast notifications            |
+| path_provider             | File system access             |
+| permission_handler        | Permissions                    |
+| skeletons                 | Loading skeletons              |
+| animations                | Custom animations              |
+| flutter_native_splash     | Splash screen                  |
+
+---
+
 <div align="center">
-  <p>Built with ❤️ by Najeeb Aslan</p>
-  <p>Copyright © 2022 Crotty. All rights reserved.</p>
-</div>
+  <b>Made with ❤️ using Flutter</b>
+</div> 
